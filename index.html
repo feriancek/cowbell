@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <title>updoot.me</title>
-  <meta name="description" content="updoot.me">
-  <meta name="author" content="mr skeltal">
-  <meta name="contact" content="skelly@updoot.me">
-
-
+  <meta name="description" content="Needs more cowbell">
+  <meta name="author" content="Simon Feriancek">
+  <meta name="contact" content="Simon@updoot.me">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-
   <link rel="icon" type="image/png" href="assets/favicon.png">
-
 </head>
 <body>
-
   <div class="container">
     <div class="row">
-      <div class="one-half column offset-by-three" style="margin-top: 10%">
-        <h5 style="color:#88d07c;">if you see this web page while browsing</h5>
-          <img src="assets/doot.gif" class="skeleton">
-          <h5 style="color: #FFFFFF;">you have been visited by trumpet skelton of the abyss</h5>
-          <h5 style="color: #ecea95;">good bones and calcium will come to you</h5>
-          <h5 style="color: #1117b5;">but only if you updoot mr skeltal in the next 2.7 seconds</h5>
-          <button style="margin: 0 auto; display: block;" onclick="this.firstChild.play()"><audio src="assets/skullsound2.mp3"></audio>updoot</button>
+      <div class="one-half column offset-by-three" style="margin-top: 17%">
+        <h3 style="color:#CC0000;">Ring the bell</h3>
+        <img src="assets/bell.jpg" class="skeleton" onClick="document.getElementById('bellSound').play();">
+        <audio id="bellSound" src="assets/bell.mp3" preload="auto"></audio>
       </div>
     </div>
   </div>
-
 </body>
 </html>
